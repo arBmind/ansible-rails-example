@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ANSIBLE_GIT_REPO=git://github.com/dresden-weekly/ansible.git
-ANSIBLE_VERSION=${ANSIBLE_VERSION:=2.0.1-clean}
+ANSIBLE_VERSION=${ANSIBLE_VERSION:=2.1.0.0 1}
+ANSIBLE_GIT_BRANCH=v2.1.0.0-1
 
 source $PROJECT_FOLDER/$VAGRANT_ANSIBLE_REMOTE/ansible/git-install.sh
