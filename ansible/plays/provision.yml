@@ -17,6 +17,7 @@
         name: "{{ app_user }}"
         groups: "www-data"
         state: "present"
+        shell: "/bin/bash"
 
   roles:
   - role: dresden-weekly.Rails/ssh_agent
@@ -59,6 +60,7 @@
         name: "{{ app_user }}"
         groups: "www-data"
         state: "present"
+        shell: "/bin/bash"
 
   roles:
   - role: dresden-weekly.Rails/user/profile
