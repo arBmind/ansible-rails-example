@@ -43,6 +43,9 @@
       facts:
       - DATABASE_URL
 
+
+  - dresden-weekly.Rails/git/env-credentials
+
   - role: dresden-weekly.Rails/upstart/userjobs
     users:
     - "{{ app_user }}"
