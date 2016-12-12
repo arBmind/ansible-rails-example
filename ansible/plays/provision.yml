@@ -31,6 +31,9 @@
   - dresden-weekly.Rails/rails/logrotate
   - dresden-weekly.Rails/ruby/rvm
   - dresden-weekly.Rails/ruby/postgresql
+
+  - dresden-weekly.Rails/git/env-credentials
+
   - role: dresden-weekly.Rails/upstart/userjobs
     users:
     - "{{ app_user }}"
