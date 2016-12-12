@@ -29,6 +29,9 @@
       RAILS_LOG_FILE_PATH: "{{ RAILS_APP_LOG_PATH }}"
       DATABASE_URL: "{{ DATABASE_URL }}"
 
+
+  - dresden-weekly.Rails/git/env-credentials
+
   - role: dresden-weekly.Rails/upstart/userjobs
     users:
     - "{{ app_user }}"
